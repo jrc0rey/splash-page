@@ -1,8 +1,10 @@
 body{
+  margin:0;
+  padding: 0;
   width: 100%;
   height: 100vh;
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
   background: #6631f7; /* Old browsers */
 background: -moz-linear-gradient(45deg, #6631f7 0%, #73d694 100%); /* FF3.6-15 */
@@ -13,8 +15,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6631f7', end
 }
 
 .line{
+  margin-left:  12px;
   font-family: "roboto", "sans-serif";
-  font-size: 1.3em;
+  font-size: 2.8em;
   color: white;
   font-style: italic;
   -webkit-font-smoothing: antialiased;
